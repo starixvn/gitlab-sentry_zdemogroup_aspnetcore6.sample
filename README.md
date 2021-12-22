@@ -1,2 +1,0 @@
-# Aspnetcore6.Sample
-
