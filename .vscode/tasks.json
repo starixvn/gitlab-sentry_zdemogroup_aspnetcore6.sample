@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/aspnetcore6.sample/aspnetcore6.sample.csproj",
+                "${workspaceFolder}/aspnetcore6.sample.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
