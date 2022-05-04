@@ -1,5 +1,0 @@
-include:
-    - project: "ci/repos-ci/nexops_sample_website3"
-      ref: master
-      file: "gitlab-ci.yml"
-      
