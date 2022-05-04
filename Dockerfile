@@ -18,7 +18,7 @@ RUN dotnet publish -r linux-x64 --self-contained false -o /app
 #registry.nexdev.net:5050/docker/dotnet/core/aspnet:6.0-ori
 #RUN apk add --update curl && \
 #    rm -rf /var/cache/apk/*
-FROM registry.nexdev.net:5050/docker/dotnet/core/aspnet:6.0 AS base
+FROM registry.nexdev.net:5050/docker/dotnet/core/aspnet:6.0-final AS base
 
 RUN sed -i 's/DEFAULT@SECLEVEL=2/DEFAULT@SECLEVEL=1/g' /etc/ssl/openssl.cnf
 RUN sed -i 's/MinProtocol = TLSv1.2/MinProtocol = TLSv1/g' /etc/ssl/openssl.cnf
